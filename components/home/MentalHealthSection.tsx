@@ -21,9 +21,9 @@ export default function MentalHealthSection() {
         <Image
           className="overflow-hidden object-cover aspect-[3/1] w-full rounded-xl sm:rounded-3xl"
           alt="image landscape expan about mental health"
-          height={100}
-          width={200}
-          src="/images/landscape_image_mockup.png"
+          height={1000}
+          width={2000}
+          src="/images/main_MH.jpeg"
         />
       </Zoom>
       <Fade  triggerOnce className="mt-12">

@@ -28,9 +28,9 @@ export default function LittleCareSection() {
               <Image
                 className="overflow-hidden object-cover h-[200px]  w-full rounded-xl sm:rounded-3xl"
                 alt="image landscape expan about mental health"
-                height={100}
-                width={200}
-                src="/images/mockup_image.jpeg"
+                height={1000}
+                width={2000}
+                src="/images/little_care_1.png"
               />
               <div className="mt-2">
                 <h3 className=" font-bold text-lg">
@@ -45,9 +45,9 @@ export default function LittleCareSection() {
               <Image
                 className="overflow-hidden object-cover  h-[200px]  w-full rounded-xl sm:rounded-3xl"
                 alt="image landscape expan about mental health"
-                height={100}
-                width={200}
-                src="/images/mockup_image.jpeg"
+                height={1000}
+                width={2000}
+                src="/images/little_care_2.png"
               />
               <div className="mt-2">
                 <h3 className=" font-bold text-lg">Improve your focus</h3>
@@ -60,9 +60,9 @@ export default function LittleCareSection() {
               <Image
                 className="overflow-hidden object-cover h-[300px] w-full rounded-xl sm:rounded-3xl"
                 alt="image landscape expan about mental health"
-                height={100}
-                width={200}
-                src="/images/mockup_image.jpeg"
+                height={1000}
+                width={2000}
+                src="/images/little_care_3.png"
               />
               <div className="mt-2">
                 <h3 className=" font-bold text-lg">
@@ -81,7 +81,7 @@ export default function LittleCareSection() {
               alt="image landscape expan about mental health"
               height={100}
               width={200}
-              src="/images/mockup_image.jpeg"
+              src="/images/little_care_4.png"
             />
           </Fade>
             <Fade triggerOnce delay={200} className="mt-2">
@@ -97,7 +97,7 @@ export default function LittleCareSection() {
               alt="image landscape expan about mental health"
               height={100}
               width={200}
-              src="/images/mockup_image.jpeg"
+              src="/images/little_care_3.png"
             />
             <div className="mt-2">
               <h3 className=" font-bold text-lg">

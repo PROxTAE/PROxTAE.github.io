@@ -1,4 +1,4 @@
-interface activityList {
+interface activityListType {
   activity: string;
   tags: string[];
   duration:number
@@ -7,7 +7,7 @@ interface activityList {
 
 
 
-const activityList:activityList[] = [
+const activityList:activityListType[] = [
   {
     "activity": "Listen to nature sounds for 5 minutes",
     "tags": [

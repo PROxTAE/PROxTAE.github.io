@@ -28,7 +28,7 @@ export default function PoorMentalHealth() {
               alt="image landscape expan about mental health"
               height={100}
               width={200}
-              src="/images/mockup_image.jpeg"
+              src="/images/Poor_mental_1.png"
             />
           </Zoom>
           <div className="mt-4">
@@ -49,7 +49,7 @@ export default function PoorMentalHealth() {
               alt="image landscape expan about mental health"
               height={100}
               width={200}
-              src="/images/mockup_image.jpeg"
+              src="/images/Poor_mental_2.png"
             />
           </Zoom>
           <div className="mt-4">
@@ -70,7 +70,7 @@ export default function PoorMentalHealth() {
               alt="image landscape expan about mental health"
               height={100}
               width={200}
-              src="/images/mockup_image.jpeg"
+              src="/images/Poor_mental_3.png"
             />
           </Zoom>
           <div className="mt-4">
@@ -88,13 +88,13 @@ export default function PoorMentalHealth() {
               alt="image landscape expan about mental health"
               height={100}
               width={200}
-              src="/images/mockup_image.jpeg"
+              src="/images/Poor_mental_4.png"
             />
           </Zoom>
           <div className="mt-4">
             <div className="flex">
               <span className="text-orange-400 font-bold text-lg mr-2">| </span>{" "}
-              <Fade className="!flex !flex-wrap">Chronically anxious</Fade>
+              <Fade triggerOnce className="!flex !flex-wrap">Chronically anxious</Fade>
             </div>
           </div>
         </div>

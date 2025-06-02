@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { title, subtitle } from "@/components/primitives";
-import { Slide  } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 
 export default function MentalHealthMakeYou() {
   return (
@@ -13,38 +13,39 @@ export default function MentalHealthMakeYou() {
       </Slide>
 
       <div className="w-full grid grid-cols-12 gap-6 sm:gap-12 mt-10  ">
-        <Slide triggerOnce  className="col-span-12 md:col-span-4">
+
+        <Slide triggerOnce className="col-span-12 md:col-span-4">
           <Image
             className="overflow-hidden object-cover h-[200px] md:h-full w-full rounded-xl sm:rounded-3xl"
             alt="image landscape expan about mental health"
-            height={100}
-            width={200}
-            src="/images/mockup_image.jpeg"
+            height={1000}
+            width={1500}
+            src="/images/bg-make-you2.png"
           />
         </Slide>
 
         <div className="col-span-12 md:col-span-8 grid grid-cols-8 gap-6 md:gap-12 ">
           <div className="col-span-4">
-            <Slide triggerOnce  className="">
+            <Slide triggerOnce className="">
               <Image
                 className="overflow-hidden object-cover aspect-[4/2]  w-full rounded-xl sm:rounded-3xl"
                 alt="image landscape expan about mental health"
-                height={100}
-                width={200}
-                src="/images/mockup_image.jpeg"
+                height={1000}
+                width={1500}
+                src="/images/Handle_stress.png"
               />
               <div className="mt-2">
                 <h3 className=" font-bold text-md sm:text-lg">Handle stress</h3>
               </div>
             </Slide>
 
-            <Slide triggerOnce   className="mt-6 ">
+            <Slide triggerOnce className="mt-6 ">
               <Image
                 className="overflow-hidden object-cover aspect-[4/3]  w-full rounded-xl sm:rounded-3xl"
                 alt="image landscape expan about mental health"
-                height={100}
-                width={200}
-                src="/images/mockup_image.jpeg"
+                height={1000}
+                width={1500}
+                src="/images/Build_relationships.png"
               />
               <div className="mt-2">
                 <h3 className=" font-bold text-md sm:text-lg">
@@ -55,12 +56,12 @@ export default function MentalHealthMakeYou() {
           </div>
 
           <div className="col-span-4">
-            <Slide triggerOnce direction="right"  className="">
+            <Slide triggerOnce direction="right" className="">
               <Image
                 className="overflow-hidden object-cover aspect-[4/3]  w-full rounded-xl sm:rounded-3xl"
                 alt="image landscape expan about mental health"
-                height={100}
-                width={200}
+                height={1000}
+                width={1500}
                 src="/images/healthy_choices.png"
               />
               <div className="mt-2">
@@ -70,13 +71,13 @@ export default function MentalHealthMakeYou() {
               </div>
             </Slide>
 
-            <Slide triggerOnce direction="right"  className="mt-6">
+            <Slide triggerOnce direction="right" className="mt-6">
               <Image
                 className="overflow-hidden object-cover aspect-[4/2] w-full rounded-xl sm:rounded-3xl"
                 alt="image landscape expan about mental health"
-                height={100}
-                width={200}
-                src="/images/mockup_image.jpeg"
+                height={1000}
+                width={1500}
+                src="/images/day-to-day.png"
               />
               <div className="mt-2">
                 <h3 className=" font-bold text-md sm:text-lg">

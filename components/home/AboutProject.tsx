@@ -31,11 +31,11 @@ export default function AboutProject() {
 
       <Slide triggerOnce direction="right" duration={2000} className="col-span-12 md:col-span-7 mt-6 md:mt-0">
         <Image
-          className="overflow-hidden object-cover  w-full rounded-2xl"
+          className="overflow-hidden object-cover  aspect-[3/2] w-full rounded-2xl "
           alt="HeroUI hero Image with delay"
-          height={300}
-          src="/images/mockup_image.jpeg"
-          width={500}
+          height={1000}
+          src="/images/about_project.png"
+          width={1000}
         />
       </Slide>
     </div>

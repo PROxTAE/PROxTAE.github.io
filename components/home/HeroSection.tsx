@@ -4,6 +4,7 @@ import Image from "next/image";
 import { title, subtitle } from "@/components/primitives";
 import { Button } from "@heroui/button";
 import { Fade, JackInTheBox, Slide } from "react-awesome-reveal";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -47,9 +48,11 @@ export default function HeroSection() {
                 “ Take a moment… for your mind.”
               </Fade>
               <JackInTheBox triggerOnce delay={2000} className="mt-4">
-                <Button className="" color="primary">
-                  Create your Moment
+                <Link href='/form-survey'>
+                <Button className="" color="secondary">
+                  <Image      alt="calendar icon" src="/solar_calendar-linear.svg" height={16} width={16} /> Create your Moment
                 </Button>
+                </Link>
               </JackInTheBox>
             </Fade>
           </Slide>
@@ -62,7 +65,7 @@ export default function HeroSection() {
               className="object-cover h-full w-full rounded-xl sm:rounded-3xl "
               alt="hero Image"
               height={300}
-              src="/images/hero_2.png"
+              src="/images/image_hero_2.png"
               width={300}
             />
           </Fade>

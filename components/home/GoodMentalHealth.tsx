@@ -20,7 +20,7 @@ export default function GoodMentalHealth() {
             alt="image landscape expan about mental health"
             height={100}
             width={200}
-            src="/images/mockup_image.jpeg"
+            src="/images/Good_mental_1.png"
           />
           </Slide>
           <Fade triggerOnce className="mt-4">
@@ -39,7 +39,7 @@ export default function GoodMentalHealth() {
             alt="image landscape expan about mental health"
             height={100}
             width={200}
-            src="/images/mockup_image.jpeg"
+            src="/images/Good_mental_2.png"
           />
           </Slide>
           <Fade triggerOnce className="mt-4">
@@ -58,7 +58,7 @@ export default function GoodMentalHealth() {
             alt="image landscape expan about mental health"
             height={100}
             width={200}
-            src="/images/mockup_image.jpeg"
+            src="/images/Good_mental_3.png"
           />
           </Slide>
           <Fade triggerOnce  delay={300} className="mt-4">
@@ -77,7 +77,7 @@ export default function GoodMentalHealth() {
             alt="image landscape expan about mental health"
             height={100}
             width={200}
-            src="/images/mockup_image.jpeg"
+            src="/images/Good_mental_4.png"
           />
           </Slide>
           <Fade triggerOnce delay={300} className="mt-4">

@@ -38,9 +38,9 @@ export default function Home() {
       <section className="mt-64">
         <PoorMentalHealth/>
       </section>
-      <section className="mt-64">
+      {/* <section className="mt-64">
         <JustPhotoSection/>
-      </section>
+      </section> */}
       <section className="mt-64">
         <LittleCareSection/>
       </section>
